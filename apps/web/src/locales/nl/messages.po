@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: rakazo-web\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Rakazo\n"
+"Last-Translator: CloudBot\n"
 "Language-Team: Dutch\n"
 "Plural-Forms: \n"
 
@@ -630,8 +630,8 @@ msgid "An API key is stored for this provider, not a subscription sign-in."
 msgstr "Voor deze aanbieder is een API-sleutel opgeslagen, geen abonnementsaanmelding."
 
 #: src/pages/memory-providers/HonchoSettingsForm.tsx
-msgid "An existing Honcho peer to read from. Rakazo never writes to it."
-msgstr "Een bestaande Honcho-peer om uit te lezen. Rakazo schrijft er nooit naar."
+msgid "An existing Honcho peer to read from. CloudBot never writes to it."
+msgstr "Een bestaande Honcho-peer om uit te lezen. CloudBot schrijft er nooit naar."
 
 #: src/pages/RoutineEditor.tsx
 msgid "An integration tool"
@@ -1121,7 +1121,7 @@ msgid "Choose file"
 msgstr "Bestand kiezen"
 
 #: src/components/ModelCredits.tsx
-msgid "Choose how to use Rakazo"
+msgid "Choose how to use CloudBot"
 msgstr ""
 
 #: src/pages/shell/dialogs.tsx
@@ -1215,6 +1215,10 @@ msgstr "Steminstellingen sluiten"
 #: src/pages/memory-providers/ConnectionModeFields.tsx
 msgid "Cloud"
 msgstr "Cloud"
+
+#: src/components/ModelCredits.tsx
+msgid "CloudBot credits"
+msgstr ""
 
 #: src/components/AskCard.tsx
 msgid "Code"
@@ -1956,8 +1960,8 @@ msgid "Create space"
 msgstr "Space aanmaken"
 
 #: src/pages/Auth.tsx
-msgid "Create your Rakazo"
-msgstr "Maak je Rakazo"
+msgid "Create your CloudBot"
+msgstr "Maak je CloudBot"
 
 #: src/components/AskCard.tsx
 msgid "Created"
@@ -3713,8 +3717,8 @@ msgid "Paste a replacement key"
 msgstr "Plak een vervangende sleutel"
 
 #: src/pages/model-settings/compatible-model-fields.tsx
-msgid "Paste the OpenAI-compatible address from your server. Rakazo adds /v1 if needed."
-msgstr "Plak het OpenAI-compatibele adres van je server. Rakazo voegt zo nodig /v1 toe."
+msgid "Paste the OpenAI-compatible address from your server. CloudBot adds /v1 if needed."
+msgstr "Plak het OpenAI-compatibele adres van je server. CloudBot voegt zo nodig /v1 toe."
 
 #: src/pages/VoiceSettingsOverlay.tsx
 msgid "Paste your API key"
@@ -3840,12 +3844,8 @@ msgstr "In wachtrij"
 msgid "Quote"
 msgstr "Citaat"
 
-#: src/components/ModelCredits.tsx
-msgid "Rakazo credits"
-msgstr ""
-
 #: src/pages/memory-providers/HonchoSettingsForm.tsx
-msgid "rakazo-shared and IDs starting with bot- are reserved for Rakazo."
+msgid "rakazo-shared and IDs starting with bot- are reserved for CloudBot."
 msgstr ""
 
 #: src/pages/shell/message-hover-actions.tsx
@@ -4191,8 +4191,8 @@ msgid "Return to call with {0}"
 msgstr "Terug naar het gesprek met {0}"
 
 #: src/pages/McpOAuthCallback.tsx
-msgid "Return to Rakazo"
-msgstr "Terug naar Rakazo"
+msgid "Return to CloudBot"
+msgstr "Terug naar CloudBot"
 
 #: src/lib/model-connection-preflight.ts
 msgid "Review provider settings and test again."
@@ -4547,8 +4547,8 @@ msgid "Sign in again"
 msgstr "Opnieuw aanmelden"
 
 #: src/pages/Auth.tsx
-msgid "Sign in to Rakazo"
-msgstr "Aanmelden bij Rakazo"
+msgid "Sign in to CloudBot"
+msgstr "Aanmelden bij CloudBot"
 
 #: src/lib/user-error.ts
 msgid "Sign in to your existing account to link SSO"
@@ -4924,8 +4924,8 @@ msgid "This server is already connected. Disconnect it first to authorize again.
 msgstr "Deze server is al gekoppeld. Koppel hem eerst los om opnieuw te autoriseren."
 
 #: src/pages/model-settings/connection-controls.tsx
-msgid "This subscription sign-in is not available in Rakazo yet. Use a deployment credential or choose another provider."
-msgstr "Deze abonnementsaanmelding is nog niet beschikbaar in Rakazo. Gebruik een implementatiegegeven of kies een andere aanbieder."
+msgid "This subscription sign-in is not available in CloudBot yet. Use a deployment credential or choose another provider."
+msgstr "Deze abonnementsaanmelding is nog niet beschikbaar in CloudBot. Gebruik een implementatiegegeven of kies een andere aanbieder."
 
 #: src/pages/Artifacts.tsx
 msgid "This week"
@@ -5168,6 +5168,11 @@ msgstr "Gebruik {oauthEnvReference} voor het toegangstoken."
 msgid "Use a found model"
 msgstr "Een gevonden model gebruiken"
 
+#: src/components/ModelCredits.tsx
+#: src/pages/Onboarding.tsx
+msgid "Use CloudBot credits"
+msgstr ""
+
 #: src/lib/model-connection-preflight.ts
 msgid "Use Connect to verify the key."
 msgstr "Gebruik Verbinden om de sleutel te verifiëren."
@@ -5191,11 +5196,6 @@ msgstr "Wachtwoord gebruiken"
 #: src/components/teach/TeachRecordingChrome.tsx
 msgid "Use Protected input for passwords."
 msgstr "Gebruik Beveiligde invoer voor wachtwoorden."
-
-#: src/components/ModelCredits.tsx
-#: src/pages/Onboarding.tsx
-msgid "Use Rakazo credits"
-msgstr ""
 
 #: src/pages/model-settings/connection-controls.tsx
 msgid "Use this model"

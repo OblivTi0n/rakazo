@@ -66,18 +66,18 @@ describe("desktop downloads", () => {
       Response.json({
         assets: [
           asset("latest-mac.yml"),
-          asset("Rakazo-1.0.0-universal-mac.zip"),
-          asset("Rakazo-1.0.0-universal.dmg"),
-          asset("Rakazo-1.0.0-universal.dmg.blockmap"),
-          asset("Rakazo-1.0.0.AppImage"),
-          { name: "Rakazo-1.0.0-setup.exe", browser_download_url: "http://example.com/x.exe" },
+          asset("CloudBot-1.0.0-universal-mac.zip"),
+          asset("CloudBot-1.0.0-universal.dmg"),
+          asset("CloudBot-1.0.0-universal.dmg.blockmap"),
+          asset("CloudBot-1.0.0.AppImage"),
+          { name: "CloudBot-1.0.0-setup.exe", browser_download_url: "http://example.com/x.exe" },
         ],
       }),
     );
 
     await expect(fetchDesktopDownloads(fetchImpl as unknown as typeof fetch)).resolves.toEqual({
-      mac: asset("Rakazo-1.0.0-universal.dmg").browser_download_url,
-      linux: asset("Rakazo-1.0.0.AppImage").browser_download_url,
+      mac: asset("CloudBot-1.0.0-universal.dmg").browser_download_url,
+      linux: asset("CloudBot-1.0.0.AppImage").browser_download_url,
     });
     expect(String(fetchImpl.mock.calls[0]?.[0])).toMatch(/\/releases\/latest$/);
   });

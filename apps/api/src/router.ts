@@ -1029,7 +1029,7 @@ export function createRouter(deps: RouterDeps) {
               auth.secretIdByModel[entry.provider]?.[entry.id] ||
               auth.secretIdByProvider[entry.provider]
                 ? entry.billing
-                : "Uses Rakazo credits",
+                : "Uses CloudBot credits",
           }
         : entry,
     );

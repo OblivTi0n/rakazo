@@ -630,8 +630,8 @@ msgid "An API key is stored for this provider, not a subscription sign-in."
 msgstr "इस प्रोवाइडर के लिए API कुंजी संग्रहीत है, सब्सक्रिप्शन साइन-इन नहीं।"
 
 #: src/pages/memory-providers/HonchoSettingsForm.tsx
-msgid "An existing Honcho peer to read from. Rakazo never writes to it."
-msgstr "पढ़ने के लिए एक मौजूदा Honcho पीयर। Rakazo इसमें कभी नहीं लिखता।"
+msgid "An existing Honcho peer to read from. CloudBot never writes to it."
+msgstr "पढ़ने के लिए एक मौजूदा Honcho पीयर। CloudBot इसमें कभी नहीं लिखता।"
 
 #: src/pages/RoutineEditor.tsx
 msgid "An integration tool"
@@ -1121,7 +1121,7 @@ msgid "Choose file"
 msgstr "फ़ाइल चुनें"
 
 #: src/components/ModelCredits.tsx
-msgid "Choose how to use Rakazo"
+msgid "Choose how to use CloudBot"
 msgstr ""
 
 #: src/pages/shell/dialogs.tsx
@@ -1215,6 +1215,10 @@ msgstr "आवाज़ सेटिंग्स बंद करें"
 #: src/pages/memory-providers/ConnectionModeFields.tsx
 msgid "Cloud"
 msgstr "क्लाउड"
+
+#: src/components/ModelCredits.tsx
+msgid "CloudBot credits"
+msgstr ""
 
 #: src/components/AskCard.tsx
 msgid "Code"
@@ -1956,8 +1960,8 @@ msgid "Create space"
 msgstr ""
 
 #: src/pages/Auth.tsx
-msgid "Create your Rakazo"
-msgstr "अपना Rakazo बनाएं"
+msgid "Create your CloudBot"
+msgstr "अपना CloudBot बनाएं"
 
 #: src/components/AskCard.tsx
 msgid "Created"
@@ -3713,8 +3717,8 @@ msgid "Paste a replacement key"
 msgstr "बदलने के लिए नई कुंजी पेस्ट करें"
 
 #: src/pages/model-settings/compatible-model-fields.tsx
-msgid "Paste the OpenAI-compatible address from your server. Rakazo adds /v1 if needed."
-msgstr "अपने सर्वर से OpenAI-संगत पता पेस्ट करें। ज़रूरत होने पर Rakazo /v1 जोड़ देता है।"
+msgid "Paste the OpenAI-compatible address from your server. CloudBot adds /v1 if needed."
+msgstr "अपने सर्वर से OpenAI-संगत पता पेस्ट करें। ज़रूरत होने पर CloudBot /v1 जोड़ देता है।"
 
 #: src/pages/VoiceSettingsOverlay.tsx
 msgid "Paste your API key"
@@ -3840,12 +3844,8 @@ msgstr "कतार में"
 msgid "Quote"
 msgstr ""
 
-#: src/components/ModelCredits.tsx
-msgid "Rakazo credits"
-msgstr ""
-
 #: src/pages/memory-providers/HonchoSettingsForm.tsx
-msgid "rakazo-shared and IDs starting with bot- are reserved for Rakazo."
+msgid "rakazo-shared and IDs starting with bot- are reserved for CloudBot."
 msgstr ""
 
 #: src/pages/shell/message-hover-actions.tsx
@@ -4191,8 +4191,8 @@ msgid "Return to call with {0}"
 msgstr "{0} के साथ कॉल पर लौटें"
 
 #: src/pages/McpOAuthCallback.tsx
-msgid "Return to Rakazo"
-msgstr "Rakazo पर लौटें"
+msgid "Return to CloudBot"
+msgstr "CloudBot पर लौटें"
 
 #: src/lib/model-connection-preflight.ts
 msgid "Review provider settings and test again."
@@ -4547,8 +4547,8 @@ msgid "Sign in again"
 msgstr "फिर से साइन इन करें"
 
 #: src/pages/Auth.tsx
-msgid "Sign in to Rakazo"
-msgstr "Rakazo में साइन इन करें"
+msgid "Sign in to CloudBot"
+msgstr "CloudBot में साइन इन करें"
 
 #: src/lib/user-error.ts
 msgid "Sign in to your existing account to link SSO"
@@ -4924,8 +4924,8 @@ msgid "This server is already connected. Disconnect it first to authorize again.
 msgstr "यह सर्वर पहले से कनेक्टेड है। पुनः ऑथराइज़ करने के लिए पहले इसे डिस्कनेक्ट करें।"
 
 #: src/pages/model-settings/connection-controls.tsx
-msgid "This subscription sign-in is not available in Rakazo yet. Use a deployment credential or choose another provider."
-msgstr "यह सब्सक्रिप्शन साइन-इन अभी Rakazo में उपलब्ध नहीं है। किसी डिप्लॉयमेंट क्रेडेंशियल का उपयोग करें या दूसरा प्रोवाइडर चुनें।"
+msgid "This subscription sign-in is not available in CloudBot yet. Use a deployment credential or choose another provider."
+msgstr "यह सब्सक्रिप्शन साइन-इन अभी CloudBot में उपलब्ध नहीं है। किसी डिप्लॉयमेंट क्रेडेंशियल का उपयोग करें या दूसरा प्रोवाइडर चुनें।"
 
 #: src/pages/Artifacts.tsx
 msgid "This week"
@@ -5168,6 +5168,11 @@ msgstr "एक्सेस टोकन के लिए {oauthEnvReference} क
 msgid "Use a found model"
 msgstr "मिला हुआ मॉडल उपयोग करें"
 
+#: src/components/ModelCredits.tsx
+#: src/pages/Onboarding.tsx
+msgid "Use CloudBot credits"
+msgstr ""
+
 #: src/lib/model-connection-preflight.ts
 msgid "Use Connect to verify the key."
 msgstr "कुंजी जाँचने के लिए कनेक्ट करें का उपयोग करें।"
@@ -5190,11 +5195,6 @@ msgstr "पासवर्ड का उपयोग करें"
 
 #: src/components/teach/TeachRecordingChrome.tsx
 msgid "Use Protected input for passwords."
-msgstr ""
-
-#: src/components/ModelCredits.tsx
-#: src/pages/Onboarding.tsx
-msgid "Use Rakazo credits"
 msgstr ""
 
 #: src/pages/model-settings/connection-controls.tsx

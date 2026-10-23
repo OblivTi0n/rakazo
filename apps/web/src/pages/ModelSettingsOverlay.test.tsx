@@ -490,7 +490,7 @@ it("omits the redundant description and connection prompt", async () => {
   const view = await renderSettings(false);
   try {
     expect(view.container.querySelector('[data-testid="model-description"]')).toBeNull();
-    expect(view.container.textContent).not.toContain("Choose which connected model Rakazo uses.");
+    expect(view.container.textContent).not.toContain("Choose which connected model CloudBot uses.");
     expect(view.container.textContent).not.toContain(
       "Connect this provider to use it as your personal model.",
     );

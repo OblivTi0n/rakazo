@@ -630,8 +630,8 @@ msgid "An API key is stored for this provider, not a subscription sign-in."
 msgstr "Для этого поставщика сохранен API-ключ, а не вход по подписке."
 
 #: src/pages/memory-providers/HonchoSettingsForm.tsx
-msgid "An existing Honcho peer to read from. Rakazo never writes to it."
-msgstr "Существующий пир Honcho для чтения. Rakazo никогда не записывает в него данные."
+msgid "An existing Honcho peer to read from. CloudBot never writes to it."
+msgstr "Существующий пир Honcho для чтения. CloudBot никогда не записывает в него данные."
 
 #: src/pages/RoutineEditor.tsx
 msgid "An integration tool"
@@ -1121,7 +1121,7 @@ msgid "Choose file"
 msgstr "Выбрать файл"
 
 #: src/components/ModelCredits.tsx
-msgid "Choose how to use Rakazo"
+msgid "Choose how to use CloudBot"
 msgstr ""
 
 #: src/pages/shell/dialogs.tsx
@@ -1215,6 +1215,10 @@ msgstr "Закрыть настройки голоса"
 #: src/pages/memory-providers/ConnectionModeFields.tsx
 msgid "Cloud"
 msgstr "Облако"
+
+#: src/components/ModelCredits.tsx
+msgid "CloudBot credits"
+msgstr ""
 
 #: src/components/AskCard.tsx
 msgid "Code"
@@ -1956,8 +1960,8 @@ msgid "Create space"
 msgstr "Создайте пространство"
 
 #: src/pages/Auth.tsx
-msgid "Create your Rakazo"
-msgstr "Создайте свой Rakazo"
+msgid "Create your CloudBot"
+msgstr "Создайте свой CloudBot"
 
 #: src/components/AskCard.tsx
 msgid "Created"
@@ -3713,8 +3717,8 @@ msgid "Paste a replacement key"
 msgstr "Вставьте запасной ключ"
 
 #: src/pages/model-settings/compatible-model-fields.tsx
-msgid "Paste the OpenAI-compatible address from your server. Rakazo adds /v1 if needed."
-msgstr "Вставьте OpenAI-совместимый адрес со своего сервера. При необходимости Rakazo добавляет /v1."
+msgid "Paste the OpenAI-compatible address from your server. CloudBot adds /v1 if needed."
+msgstr "Вставьте OpenAI-совместимый адрес со своего сервера. При необходимости CloudBot добавляет /v1."
 
 #: src/pages/VoiceSettingsOverlay.tsx
 msgid "Paste your API key"
@@ -3840,12 +3844,8 @@ msgstr "В очереди"
 msgid "Quote"
 msgstr ""
 
-#: src/components/ModelCredits.tsx
-msgid "Rakazo credits"
-msgstr ""
-
 #: src/pages/memory-providers/HonchoSettingsForm.tsx
-msgid "rakazo-shared and IDs starting with bot- are reserved for Rakazo."
+msgid "rakazo-shared and IDs starting with bot- are reserved for CloudBot."
 msgstr ""
 
 #: src/pages/shell/message-hover-actions.tsx
@@ -4191,8 +4191,8 @@ msgid "Return to call with {0}"
 msgstr "Вернуться к звонку с {0}"
 
 #: src/pages/McpOAuthCallback.tsx
-msgid "Return to Rakazo"
-msgstr "Вернуться в Rakazo"
+msgid "Return to CloudBot"
+msgstr "Вернуться в CloudBot"
 
 #: src/lib/model-connection-preflight.ts
 msgid "Review provider settings and test again."
@@ -4547,8 +4547,8 @@ msgid "Sign in again"
 msgstr "Войдите снова"
 
 #: src/pages/Auth.tsx
-msgid "Sign in to Rakazo"
-msgstr "Войти в Rakazo"
+msgid "Sign in to CloudBot"
+msgstr "Войти в CloudBot"
 
 #: src/lib/user-error.ts
 msgid "Sign in to your existing account to link SSO"
@@ -4924,8 +4924,8 @@ msgid "This server is already connected. Disconnect it first to authorize again.
 msgstr "Этот сервер уже подключен. Сначала отключите его, чтобы авторизоваться снова."
 
 #: src/pages/model-settings/connection-controls.tsx
-msgid "This subscription sign-in is not available in Rakazo yet. Use a deployment credential or choose another provider."
-msgstr "Вход по этой подписке пока недоступен в Rakazo. Используйте учетные данные развертывания или выберите другого поставщика."
+msgid "This subscription sign-in is not available in CloudBot yet. Use a deployment credential or choose another provider."
+msgstr "Вход по этой подписке пока недоступен в CloudBot. Используйте учетные данные развертывания или выберите другого поставщика."
 
 #: src/pages/Artifacts.tsx
 msgid "This week"
@@ -5168,6 +5168,11 @@ msgstr "Используйте {oauthEnvReference} для токена дост�
 msgid "Use a found model"
 msgstr "Использовать найденную модель"
 
+#: src/components/ModelCredits.tsx
+#: src/pages/Onboarding.tsx
+msgid "Use CloudBot credits"
+msgstr ""
+
 #: src/lib/model-connection-preflight.ts
 msgid "Use Connect to verify the key."
 msgstr "Используйте «Подключить», чтобы проверить ключ."
@@ -5190,11 +5195,6 @@ msgstr "Использовать пароль"
 
 #: src/components/teach/TeachRecordingChrome.tsx
 msgid "Use Protected input for passwords."
-msgstr ""
-
-#: src/components/ModelCredits.tsx
-#: src/pages/Onboarding.tsx
-msgid "Use Rakazo credits"
 msgstr ""
 
 #: src/pages/model-settings/connection-controls.tsx

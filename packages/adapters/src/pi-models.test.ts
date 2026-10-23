@@ -120,7 +120,7 @@ describe("Pi model catalog", () => {
         providerName: "OpenAI",
         auth: "api-key",
         subscription: false,
-        billing: "Uses your OpenAI API key. Rakazo does not pay for model usage.",
+        billing: "Uses your OpenAI API key. CloudBot does not pay for model usage.",
       });
       expect(entry.oauthLabel).toBeUndefined();
       expect(entry.signIn).toBeUndefined();
@@ -133,7 +133,7 @@ describe("Pi model catalog", () => {
         providerName: "Azure OpenAI",
         auth: "api-key",
         subscription: false,
-        billing: "Uses your Azure OpenAI API key. Rakazo does not pay for model usage.",
+        billing: "Uses your Azure OpenAI API key. CloudBot does not pay for model usage.",
       });
     }
   });

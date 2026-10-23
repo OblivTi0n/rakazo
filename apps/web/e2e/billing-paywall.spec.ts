@@ -102,7 +102,7 @@ test("choose free API keys or monthly credits, then add a one-time top-up", asyn
   });
   await page.route("**/rpc/billing/status", (route) => route.fulfill({ json: { json: status } }));
   await page.reload();
-  await expect(page.getByRole("heading", { name: "Choose how to use Rakazo" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Choose how to use CloudBot" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Use my API key", exact: true })).toBeVisible();
   await expect(page.getByText("Hosted computer included.", { exact: true })).toHaveCount(0);
   const planSelect = page.getByRole("combobox", { name: "Monthly credits" });
@@ -193,12 +193,12 @@ test("choose free API keys or monthly credits, then add a one-time top-up", asyn
     await route.fulfill({ json: { json: { ok: true } } });
   });
   await captureScreenshot(page, testInfo, "billing-use-existing-credits");
-  await existingCredits.getByRole("button", { name: "Use Rakazo credits", exact: true }).click();
+  await existingCredits.getByRole("button", { name: "Use CloudBot credits", exact: true }).click();
   await expect(page.getByText("Chief").first()).toBeVisible();
   const reactivated = await openUserSettings(page, "billing");
   await expect(reactivated.getByText("$12.00", { exact: true })).toBeVisible();
   await expect(
-    reactivated.getByRole("button", { name: "Use Rakazo credits", exact: true }),
+    reactivated.getByRole("button", { name: "Use CloudBot credits", exact: true }),
   ).toHaveCount(0);
   expect(purchase).toEqual({ amountCents: 5000, monthly: false });
 });

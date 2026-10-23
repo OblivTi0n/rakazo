@@ -542,8 +542,8 @@ export const RU_MESSAGES: Record<string, string> = {
   "Photo library": "Библиотека фотографий",
   Pin: "Закрепить",
   "Please try again.": "Повторите попытку.",
-  "Point this app at your self-hosted Rakazo origin, the same HTTPS URL you open in a browser.":
-    "Направьте это приложение на свой собственный источник Rakazo, тот же URL-адрес HTTPS, который вы открываете в браузере.",
+  "Point this app at your self-hosted CloudBot origin, the same HTTPS URL you open in a browser.":
+    "Направьте это приложение на свой собственный источник CloudBot, тот же URL-адрес HTTPS, который вы открываете в браузере.",
   Private: "Личный",
   Profile: "Профиль",
   Providers: "Провайдеры",
@@ -609,10 +609,10 @@ export const RU_MESSAGES: Record<string, string> = {
   "Show more": "Показать ещё",
   "Show {label}": "Показать {label}",
   "Sign in": "Войти",
-  "Sign in to Rakazo": "Войти в Rakazo",
+  "Sign in to CloudBot": "Войти в CloudBot",
   "Sign out": "Выйти",
   "Sign up": "Зарегистрироваться",
-  "Sign up for Rakazo": "Зарегистрироваться в Rakazo",
+  "Sign up for CloudBot": "Зарегистрироваться в CloudBot",
   "Sign-in": "Вход",
   "Sign-up": "Регистрация",
   "Sign-in did not return a session": "Вход не вернул сессию",
@@ -643,7 +643,7 @@ export const RU_MESSAGES: Record<string, string> = {
   Team: "Команда",
   "Team Computer": "Командный компьютер",
   "That doesn’t look like a URL": "Это не похоже на URL",
-  "That URL did not look like a Rakazo server": "Этот адрес не похож на сервер Rakazo",
+  "That URL did not look like a CloudBot server": "Этот адрес не похож на сервер CloudBot",
   "That URL is missing a host": "Для этого URL-адреса отсутствует хост",
   "The server changed while starting the request": "Сервер изменился при запуске запроса",
   "This permanently deletes your account, bots, conversations, memories, files, and saved connections. This cannot be undone.":
@@ -735,8 +735,8 @@ export const RU_MESSAGES: Record<string, string> = {
   "Open in full window": "Открыть в полном окне",
   "OpenAPI JSON": "OpenAPI JSON",
   "Opened its thread.": "Диалог открыт.",
-  "Paste the OpenAI-compatible address from your server. Rakazo adds /v1 if needed.":
-    "Вставьте OpenAI-совместимый адрес со своего сервера. При необходимости Rakazo добавляет /v1.",
+  "Paste the OpenAI-compatible address from your server. CloudBot adds /v1 if needed.":
+    "Вставьте OpenAI-совместимый адрес со своего сервера. При необходимости CloudBot добавляет /v1.",
   Paused: "Приостановлено",
   Prompt: "Промпт",
   "Recording a live demonstration needs desktop or web with the full computer view. You can still ask this bot to run saved skills from chat.":
@@ -751,8 +751,8 @@ export const RU_MESSAGES: Record<string, string> = {
   "This removes the empty space for everyone.": "Это удалит пустое пространство для всех.",
   "This removes every message and stops current work. The bot, computer, memory, and routines are kept.":
     "Это удалит все сообщения и остановит текущую работу. Бот, компьютер, память и задачи сохранятся.",
-  "This subscription sign-in is not available in Rakazo yet. Use a deployment credential or choose another provider.":
-    "Вход по этой подписке пока недоступен в Rakazo. Используйте учётные данные развёртывания или выберите другого провайдера.",
+  "This subscription sign-in is not available in CloudBot yet. Use a deployment credential or choose another provider.":
+    "Вход по этой подписке пока недоступен в CloudBot. Используйте учётные данные развёртывания или выберите другого провайдера.",
   "Tool sources": "Источники инструментов",
   Tools: "Инструменты",
   Uninstall: "Удалить",
@@ -862,7 +862,7 @@ export const RU_MESSAGES: Record<string, string> = {
   "AI models": "Модели ИИ",
   Memory: "Память",
   "Privacy policies": "Политики конфиденциальности",
-  Rakazo: "Rakazo",
+  CloudBot: "CloudBot",
   "Withdraw all permissions": "Отозвать все разрешения",
   "Withdraw all permissions?": "Отозвать все разрешения?",
   "New mobile actions won't send data to these services. Runs already in progress and routines keep going until you stop them.":
@@ -980,7 +980,7 @@ export const RU_MESSAGES: Record<string, string> = {
   "Use my API key": "Использовать свой API-ключ",
   "Monthly credits expire at renewal. Top-ups do not expire.":
     "Ежемесячные кредиты истекают при продлении. Разовые пополнения не сгорают.",
-  "Use Rakazo credits": "Использовать кредиты Rakazo",
+  "Use CloudBot credits": "Использовать кредиты CloudBot",
   "1 unread": "1 непрочитанный",
   "{count} unread": "Непрочитанных: {count}",
   "{count} need attention": "Требуют внимания: {count}",

@@ -2,9 +2,9 @@ import { describe, expect, it, vi } from "vitest";
 import { fetchDownload } from "../api/download";
 import { LATEST_RELEASE_URL } from "./site";
 
-const DMG = "https://github.com/elie222/rakazo/releases/download/v2.0.0/Rakazo-2.0.0-universal.dmg";
+const DMG = "https://github.com/elie222/rakazo/releases/download/v2.0.0/CloudBot-2.0.0-universal.dmg";
 const release = vi.fn(async () =>
-  Response.json({ assets: [{ name: "Rakazo-2.0.0-universal.dmg", browser_download_url: DMG }] }),
+  Response.json({ assets: [{ name: "CloudBot-2.0.0-universal.dmg", browser_download_url: DMG }] }),
 ) as unknown as typeof fetch;
 
 function download(query: string, fetchImpl = release) {
